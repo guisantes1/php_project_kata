@@ -1,0 +1,9 @@
+Planet space: [10,10]
+Possible obstacles:
+[2,2,3,3]
+[5,5,3,3]
+[4,4,4,4]
+[8,8,4,4]
+Initial Point:
+[5,6,N] FFRRFFFRL
+[1,1,N] FFFFFFFFFFFFF

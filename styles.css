@@ -1,0 +1,78 @@
+/* Fondo general del sitio con imagen marciana */
+body {
+    background-image: url('https://mars.nasa.gov/layout/mars2020/images/background.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+}
+
+/* Estilo para bloques de texto preformateado */
+pre {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+}
+
+/* Bloque con ejemplo de entrada */
+.example {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+/* Contenedor principal de la app */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Color destacado para etiquetas <strong> */
+strong {
+    color: #00ffcc;
+}
+
+/* Área para arrastrar y soltar archivos */
+.dropzone {
+    border: 2px dashed #00ffcc;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+/* Estilo del área de texto manual */
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: monospace;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Botón de descarga y reset */
+button.download {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Separador visual entre secciones */
+hr {
+    border: 1px solid #00ffcc;
+    margin: 1.5rem 0;
+}
